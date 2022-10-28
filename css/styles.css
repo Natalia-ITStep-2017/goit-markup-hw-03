@@ -10,6 +10,7 @@
   --background-grey: #f5f4fa;
   --background-white: #fff;
   --background-active-btn: #188ce8;
+  --header-border: #ECECEC;
   --portfolio-border: #EEE;
 }
 
@@ -75,8 +76,12 @@ img {
 }
 
 /*--------------HEADER----------------*/
+.header {
+  border-bottom: 1px solid var(--header-border);
+}
 .header .container {
   display: flex;
+
 }
 
 .nav,
