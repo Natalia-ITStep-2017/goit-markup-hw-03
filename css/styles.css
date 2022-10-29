@@ -74,7 +74,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*--------------HEADER----------------*/
 .header {
   border-bottom: 1px solid var(--header-border);
@@ -141,9 +144,9 @@ img {
 }
 
 /*--------------HERO----------------*/
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.hero.section {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero {
@@ -189,6 +192,10 @@ img {
 }
 
 /*--------------PRINCIPLES-&-WORKS--------------*/
+.principles.section {
+  padding-bottom: 0;
+}
+
 .principles {
   display: flex;
 
@@ -290,9 +297,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  width: 575px;
-  height: 54px;
-  margin-bottom: 27px;
+  width: fit-content;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -300,11 +306,13 @@ img {
 .filter-btn {
   display: block;
   padding: 6px 22px;
+  min-width: 73px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--title-color);
 
   background-color: var(--background-grey);
